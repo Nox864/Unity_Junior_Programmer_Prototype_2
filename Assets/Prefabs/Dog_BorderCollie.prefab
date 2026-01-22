@@ -372,9 +372,10 @@ GameObject:
   - component: {fileID: 3443939821008171814}
   - component: {fileID: 2814518925901966931}
   - component: {fileID: -5265382977647278971}
+  - component: {fileID: 2845962091655789421}
   m_Layer: 0
   m_Name: Dog_BorderCollie
-  m_TagString: Untagged
+  m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -429,6 +430,7 @@ Transform:
   - {fileID: 3062145751856773498}
   - {fileID: 287100307347599173}
   - {fileID: 6057901784729300347}
+  - {fileID: 7887196061567780136}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &2383525599448895082
@@ -511,6 +513,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0febe2cdf3887f5448e8a92b04932470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
+--- !u!114 &2845962091655789421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968386354576360499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60896570a27597a40bdd9039f8aefd4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalHunger
+  hungerSlider: {fileID: 8951074479847406273}
+  amountToBeFed: 1
 --- !u!1 &1325714374106984457
 GameObject:
   m_ObjectHideFlags: 0
@@ -6485,3 +6501,120 @@ Transform:
   - {fileID: 6634167248383159769}
   m_Father: {fileID: 3566116449048281133}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &4476257639081398081
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2090999743619516968}
+    m_Modifications:
+    - target: {fileID: 4145359046516108640, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227717767865653082, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_Name
+      value: SliderCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+--- !u!224 &7887196061567780136 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6010669003616864873, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+  m_PrefabInstance: {fileID: 4476257639081398081}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8951074479847406273 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4766574547007518080, guid: 6a10a811d07ef114dba0a9d1e306d6fd, type: 3}
+  m_PrefabInstance: {fileID: 4476257639081398081}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
