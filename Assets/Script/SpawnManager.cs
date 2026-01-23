@@ -13,7 +13,7 @@ public class SpawnManager : MonoBehaviour
     private float spawnRangeX = 15;
     private float spawnPosZ = 20;
     private float startDelay = 2f;
-    private float spawnInterval = 2.5f;
+    private float spawnInterval = 3.5f;
 
     private void Start()
     {
